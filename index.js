@@ -22,6 +22,8 @@ module.exports = function (uid) {
       return AsyncStorage.setItem(storageKey, MARKER)
         .then(function () {
           return !value
+            ? Promise.reject('Running first time')
+            : Promise.resolve('Not running first time')
         })
     })
 }
