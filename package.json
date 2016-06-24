@@ -1,0 +1,17 @@
+{
+  "name": "react-native-first-time",
+  "version": "0.0.1",
+  "description": "Detect when your app is running for the first time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react native",
+    "native",
+    "first time"
+  ],
+  "author": "Maxim Yaskevich",
+  "license": "ISC"
+}
