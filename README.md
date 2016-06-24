@@ -30,7 +30,7 @@ The recommended way is to use device's UUID. You can obtain one using
 or [react-native-device-uuid](https://github.com/lazywei/react-native-device-uuid)
 libraries.
 
-If you wish to not to catch on the first time after reinstalling the app,
+If you prefer not to catch on the first time after reinstalling the app,
 put a random string into your config and never change it.
 
 # License
