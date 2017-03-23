@@ -23,7 +23,7 @@ firstTime(DeviceInfo.getUniqueID())
 Putting your code into a `.catch` clause allows you not specifying
 the `.then` handler, which wouldn't be true in the opposite case.
 
-Also its better semantics, when the first time event is *exceptional*
+Also its better semantics, when the first time event is **exceptional**
 rather than normal.
 
 # Choosing on UID
